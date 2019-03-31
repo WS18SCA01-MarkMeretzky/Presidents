@@ -197,7 +197,7 @@ class PresidentsTableViewController: UITableViewController {
             fatalError("bad argument \(i)");
         }
         
-        model = [String](set);   ///Convert the set of strings to an array of strings.
+        model = [String](set);   //Convert the set of strings to an array of strings.
         
         model.sort {
             let  left: [Substring] = $0.split(separator: " ");
